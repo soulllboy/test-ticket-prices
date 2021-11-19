@@ -1,0 +1,49 @@
+.cont_main {
+  width: 800px;
+  margin: 20px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  width: 70%;
+}
+input[type="button"] {
+  background-color: rgb(94, 140, 240);
+  color: white;
+  width: 780px;
+  height: 30px;
+  margin: 0px 10px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.cont_results {
+  padding: 10px;
+}
+.line_result {
+  border: 1px solid rgba(121, 121, 121, 0.37);
+
+  padding: 5px;
+  margin: 0px;
+}
+.line_bold {
+  font-weight: 700;
+  background-color: rgba(143, 173, 230, 0.384);
+}
